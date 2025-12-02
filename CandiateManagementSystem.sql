@@ -18,18 +18,17 @@ CREATE TABLE CANDIDATE_TBL (
 		USE wiproDB;
         
  # 2 View all rows from Candidate_tbl
-          SELECT * FROM CANDIDATE_TBL
+     SELECT * FROM CANDIDATE_TBL
           
-    # To count rows:     
+ # 3 To count rows:     
 	SELECT COUNT(*) FROM Candidate_tbl;
     
           
-	# 3 Using SQL Query in Workbench or Console
-#To see only PASS candidates:
-          SELECT * FROM Candidate_tbl WHERE result = 'PASS';
+  # 4  Using SQL Query in Workbench or Console
+    #To see only PASS candidates:
+     SELECT * FROM Candidate_tbl WHERE result = 'PASS';
           
-      #  To see only FAIL candidates:
-      SELECT * FROM Candidate_tbl WHERE result = 'FAIL';
+  # 5 To see only FAIL candidates:
+    SELECT * FROM Candidate_tbl WHERE result = 'FAIL';
         
-        
-        SHOW DATABASES;
+    
